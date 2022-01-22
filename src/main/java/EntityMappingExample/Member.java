@@ -1,6 +1,8 @@
 package EntityMappingExample;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.RequiredArgsConstructor;
 
 import javax.persistence.*;
 
@@ -10,7 +12,7 @@ public class Member {
 
     @Id
     @Column(name = "MEMBER_ID")
-    private Long id;
+    private String id;
 
     private String username;
 
@@ -18,4 +20,6 @@ public class Member {
     @JoinColumn(name = "TEAM_ID")
     private Team team;
 
+    public Member(String member1, String 회원1) {
+    }
 }

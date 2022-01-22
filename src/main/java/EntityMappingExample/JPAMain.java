@@ -1,5 +1,7 @@
 //package SimpleDBObject;
 //
+//import EntityMappingExample.Member;
+//
 //import javax.persistence.*;
 //import java.util.List;
 //
@@ -31,13 +33,9 @@
 //        Member member = new Member();
 //        member.setId(id);
 //        member.setUsername("더미원");
-//        member.setAge("22");
 //
 //        //등록
 //        em.persist(member);
-//
-//        //수정
-//        member.setAge("25");
 //
 //        //조회
 //        Member found = em.find(Member.class, id);
