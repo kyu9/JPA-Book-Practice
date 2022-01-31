@@ -1,6 +1,5 @@
-package EntityMappingExample;
+package com.example.jpa_project.EntityMappingExample;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import javax.persistence.*;

@@ -1,4 +1,4 @@
-package EntityMappingExample;
+package com.example.jpa_project.EntityMappingExample;
 
 import org.springframework.beans.factory.annotation.Autowired;
 

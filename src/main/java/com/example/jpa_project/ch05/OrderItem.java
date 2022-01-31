@@ -1,4 +1,4 @@
-package ch05;
+package com.example.jpa_project.ch05;
 
 import javax.persistence.*;
 

@@ -1,13 +1,10 @@
-package EntityMappingExample;
-
-import lombok.Data;
+package com.example.jpa_project.ch05;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
-@Data
 @Entity
 public class Item {
     @Id
@@ -16,6 +13,6 @@ public class Item {
     private Long id;
 
     private String name;
-    private int price;
-    private int stockQuantity;
+    private Long price;
+    private String stockQuantity;
 }
